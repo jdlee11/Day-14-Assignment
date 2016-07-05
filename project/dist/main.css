@@ -1,0 +1,109 @@
+body {
+  background: white;
+  margin: 0;
+  height: 100%;
+  min-width: 760px; }
+
+.sidebar {
+  background: #333;
+  color: white;
+  width: 200px;
+  height: 650px;
+  float: left;
+  text-align: center;
+  z-index: 1; }
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0; }
+
+.main-container {
+  text-align: center;
+  background: white;
+  height: 100%;
+  margin: 0; }
+  .main-container h1 {
+    margin-top: 0px;
+    padding-top: 20px; }
+
+.album {
+  background: white;
+  width: 150px;
+  height: 200px;
+  display: inline-block;
+  margin: 4%;
+  border: 2px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center; }
+  .album:hover {
+    background: #79c6ec; }
+  .album img {
+    height: 150px;
+    width: auto; }
+
+.album-btn {
+  width: 150px;
+  height: 40px;
+  font-size: 14px;
+  margin: 10px;
+  border-color: black; }
+  .album-btn:hover {
+    background: #79c6ec; }
+  .album-btn:focus {
+    outline: 0; }
+
+.active {
+  background: #79c6ec; }
+
+.hidden {
+  display: none; }
+
+.return-to-album, .preview-img, .left-arrow, .right-arrow, .img-container {
+  display: none; }
+
+.preview {
+  background: #595959;
+  position: relative; }
+  .preview h1 {
+    display: block;
+    margin-bottom: 60px; }
+  .preview .return-to-album {
+    position: absolute;
+    display: inline-block;
+    font-size: 14px;
+    left: 30px;
+    top: 25px;
+    width: 250px;
+    height: 35px; }
+  .preview .img-container {
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+    background: white;
+    background-size: contain;
+    margin-bottom: 40px;
+    line-height: 500px; }
+    .preview .img-container .preview-img {
+      margin: 0 auto;
+      display: inline-block;
+      height: auto;
+      width: auto;
+      max-height: 500px;
+      max-width: 500px;
+      margin: auto;
+      vertical-align: middle; }
+  .preview .left-arrow, .preview .right-arrow {
+    display: inline-block;
+    color: #bfbfbf;
+    background: none;
+    border: none;
+    font-size: 150px;
+    margin-top: 160px;
+    vertical-align: top; }
+    .preview .left-arrow:hover, .preview .right-arrow:hover {
+      color: #f2f2f2; }
+    .preview .left-arrow:focus, .preview .right-arrow:focus {
+      outline: none; }
+
+/*# sourceMappingURL=main.css.map */
